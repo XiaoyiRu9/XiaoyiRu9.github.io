@@ -3,10 +3,10 @@ body {
 }
 
 .intro {
-	border:1px solid #000;
+
 	padding:20px;
 	margin:20px;
-	background-color: lightgray;
+	
 }
 
 a {
@@ -15,4 +15,37 @@ a {
 
 h1 {
 	font-size: 28px;
+}
+.box{ padding:20px;
+	margin-left: 220px;
+	  display: inline-block;
+  cursor: move;
+
+}
+.box.w{ padding-left: 300;
+	margin-left: 120px;
+	margin-top: 100px;
+	  display: inline-block;
+  cursor: move;
+
+}
+.box.e{padding-left: 400;
+	margin-left: 700px;
+		margin-top: 100px;
+		  display: inline-block;
+  cursor: move;
+
+}
+
+.box.r{padding-left: 200;
+	margin-left: 400px;
+	margin-top: 100px;
+	  display: inline-block;
+  cursor: move;
+
+}
+.box.t{padding-left: 220;
+	margin-left: 820px;
+		margin-top: 100px;
+
 }
